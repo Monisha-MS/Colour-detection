@@ -1,11 +1,11 @@
 import cv2
 import pandas as pd
-image_path=r"C:\Users\monis\Desktop\Data science\Color detection\nature-3082832__480.jpg"
+image_path=r"C:\Users\Color detection\nature-3082832__480.jpg"
 image=cv2.imread(image_path)
 clicked = False
 r=g=b=x_pos=y_pos=0
 index=['color','color_name','hex','R','G','B']
-csv=pd.read_csv(r"C:\Users\monis\Desktop\Data science\Color detection\colors.csv",names=index,header=None)
+csv=pd.read_csv(r"C:\Users\Color detection\colors.csv",names=index,header=None)
 
 
 
